@@ -1,0 +1,11 @@
+﻿@ToDoAPI_HostAddress = https://localhost:7165
+
+POST {{ToDoAPI_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name": "Do Homework",
+  "isComplete": true
+}
+
+###
